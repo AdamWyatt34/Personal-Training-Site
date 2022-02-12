@@ -5,9 +5,11 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "PersonalTrainingDb", "PersonalTrainingDb\PersonalTrainingDb.sqlproj", "{6C9DDF71-96BA-4960-AEE3-4844A3988DC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalTrainingAPI", "PersonalTrainingAPI\PersonalTrainingAPI.csproj", "{A3AE5B25-78C5-4788-8029-D62C52A9C5F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalTrainingAPI", "PersonalTrainingAPI\PersonalTrainingAPI.csproj", "{A3AE5B25-78C5-4788-8029-D62C52A9C5F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalTrainingLibrary", "PersonalTrainingLibrary\PersonalTrainingLibrary.csproj", "{1AFC2027-D2A6-43CB-A5AF-DDE85EA817D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalTrainingLibrary", "PersonalTrainingLibrary\PersonalTrainingLibrary.csproj", "{1AFC2027-D2A6-43CB-A5AF-DDE85EA817D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalTrainingBlazorWebUI", "PersonalTrainingBlazorWebUI\PersonalTrainingBlazorWebUI.csproj", "{DE36A83E-808B-4DCC-A3FA-35470A71E300}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{1AFC2027-D2A6-43CB-A5AF-DDE85EA817D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AFC2027-D2A6-43CB-A5AF-DDE85EA817D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AFC2027-D2A6-43CB-A5AF-DDE85EA817D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE36A83E-808B-4DCC-A3FA-35470A71E300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE36A83E-808B-4DCC-A3FA-35470A71E300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE36A83E-808B-4DCC-A3FA-35470A71E300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE36A83E-808B-4DCC-A3FA-35470A71E300}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
