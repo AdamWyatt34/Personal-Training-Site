@@ -74,6 +74,7 @@
     <Build Include="dbo\Stored Procedures\spWorkouts_Delete.sql" />
     <Build Include="dbo\Stored Procedures\spWorkouts_All.sql" />
     <Build Include="dbo\Stored Procedures\spWorkouts_GetById.sql" />
+    <Build Include="dbo\Stored Procedures\spExercises_All.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="PersonalTrainingDb.refactorlog" />

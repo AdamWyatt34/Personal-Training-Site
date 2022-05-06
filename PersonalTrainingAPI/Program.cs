@@ -18,6 +18,7 @@ builder.Services.AddSingleton(new ConnectionStringData
 
 builder.Services.AddTransient<IWorkoutData, WorkoutData>();
 builder.Services.AddTransient<IClientData, ClientData>();
+builder.Services.AddTransient<IExerciseData, ExerciseData>();
 
 var app = builder.Build();
 

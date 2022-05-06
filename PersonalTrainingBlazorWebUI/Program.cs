@@ -7,6 +7,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 
+builder.Services.AddHttpClient();
+
+//builder.Services.AddSingleton(sp => new HttpClient
+//{
+//    BaseAddress = new Uri("https://localhost:44301/")
+//});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
